@@ -1,0 +1,11 @@
+@charset "uft-8";
+
+* {text-align: center; }
+a {   text-decoration: none; color:black;}
+a:visited{color:black;}
+a:hover{  color:greenyellow;}
+ul {list-style-type: none;}
+.title{width: 800px;}
+.menu{width: 130px; display: inline-block;}
+
+
