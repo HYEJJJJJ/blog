@@ -1,11 +1,24 @@
 @charset "uft-8";
 
+
 * {text-align: center; }
-a {   text-decoration: none; color:black;}
+body { width: 700px; padding: 20px; }
+a { text-decoration: none; color:black;}
 a:visited{color:black;}
-a:hover{  color:greenyellow;}
-ul {list-style-type: none;}
-.title{width: 800px;}
-.menu{width: 130px; display: inline-block;}
 
+.title a:hover { color:greenyellow; width:450px;}
 
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li { width: 150px; height: 30px;}
+.menu ul li:hover {background-color:greenyellow; color:green;}
+
+.content {width: 600px; padding:20px 50px; }
+
+.content .profile, .content .review { display: flex; }
+
+.content .profile .pf-img, .content .review .rv-img { margin-right: 50px;}
