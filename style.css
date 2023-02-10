@@ -7,6 +7,7 @@ a { text-decoration: none; color:black;}
 a:visited{color:black;}
 
 .title a:hover { color:greenyellow; width:450px;}
+.footer a:hover { color:greenyellow; width:450px;}
 
 .menu ul {
     list-style: none;
