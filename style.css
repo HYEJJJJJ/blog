@@ -2,20 +2,31 @@
 
 
 * {text-align: center; }
-body { width: 700px; padding: 20px; }
+body { 
+    width: 700px; padding: 20px; 
+    display: flex;
+    justify-content: center;    
+    margin: 0px auto;
+}
 a { text-decoration: none; color:black;}
 a:visited{color:black;}
 
 .title a:hover { color:greenyellow; width:450px;}
 .footer a:hover { color:greenyellow; width:450px;}
 
-.menu ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+.menu {
+    width: 100%;
 }
 
-.menu ul li { width: 150px; height: 30px;}
+.menu ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.menu ul li { 
+    width: 150px; height: 30px;
+     display: inline-block;
+}
 .menu ul li:hover {background-color:greenyellow; color:green;}
 
 .content {width: 600px; padding:20px 50px; }
